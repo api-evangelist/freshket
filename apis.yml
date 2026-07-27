@@ -1,7 +1,30 @@
 aid: freshket
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/freshket.png
 name: Freshket
-description: Freshket is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Freshket is a Thai agri-food supply chain technology company that operates a
+  B2B online marketplace connecting farmers and food producers directly with
+  restaurants, hotels, catering operations, and food manufacturers. The platform
+  uses technology to manage the fresh-produce and ingredient supply chain more
+  efficiently and transparently, giving buyers quality ingredients at fair
+  prices with reliable next-day delivery while giving growers better market
+  access and pricing. Founded in Bangkok and backed by 500 Global, Freshket
+  covers ordering, sourcing, cold-chain logistics, and account management for
+  foodservice businesses across Thailand. It was added to the API Evangelist
+  network as a portfolio-company lead; as of this enrichment pass Freshket
+  publishes a customer-facing web and mobile ordering platform but no public
+  developer API, SDKs, or documented API surface.
 url: https://raw.githubusercontent.com/api-evangelist/freshket/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Food and Beverage
+- Supply Chain
+- Marketplace
+- Agriculture
+- Logistics
+- E-commerce
+- Foodservice
+- Thailand
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,24 @@ maintainers:
 common:
 - type: Website
   url: https://freshket.co
+- type: About
+  url: https://freshket.co/about-us
+- type: Blog
+  url: https://freshket.co/blog/
+- type: SignUp
+  url: https://freshket.co/registration
+- type: Login
+  url: https://freshket.co/admin/login
+- type: TermsOfService
+  url: https://freshket.co/terms-conditions
+- type: PrivacyPolicy
+  url: https://freshket.co/privacy-policy
+- type: Support
+  url: https://freshket.co/contact
+- type: Careers
+  url: https://careers.freshket.co
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
